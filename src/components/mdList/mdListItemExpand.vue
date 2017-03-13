@@ -3,7 +3,9 @@
     <div class="md-list-item-container md-button">
       <slot></slot>
 
-      <md-icon class="md-list-expand-indicator">keyboard_arrow_down</md-icon>
+      <slot name="expand-indicator">
+        <md-icon class="md-list-expand-indicator">keyboard_arrow_down</md-icon>
+      </slot>
     </div>
 
     <md-button type="button" class="md-button-ghost" @click.native="toggleExpandList" :disabled="disabled"></md-button>

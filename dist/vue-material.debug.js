@@ -6425,6 +6425,8 @@ exports.default = {
 //
 //
 //
+//
+//
 
 module.exports = exports['default'];
 
@@ -12945,9 +12947,9 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     class: _vm.classes
   }, [_c('div', {
     staticClass: "md-list-item-container md-button"
-  }, [_vm._t("default"), _vm._v(" "), _c('md-icon', {
+  }, [_vm._t("default"), _vm._v(" "), _vm._t("expand-indicator", [_c('md-icon', {
     staticClass: "md-list-expand-indicator"
-  }, [_vm._v("keyboard_arrow_down")])], 2), _vm._v(" "), _c('md-button', {
+  }, [_vm._v("keyboard_arrow_down")])])], 2), _vm._v(" "), _c('md-button', {
     staticClass: "md-button-ghost",
     attrs: {
       "type": "button",
